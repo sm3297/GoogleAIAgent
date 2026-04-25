@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AeroSound Pro | Ultimate Immersion</title>
+  <meta name="description" content="Premium wireless headphones AeroSound Pro featuring industry-leading noise cancellation and immersive sound.">
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Styles -->
+  <link rel="stylesheet" href="./styles/main.css">
+  <link rel="stylesheet" href="./styles/components.css">
+</head>
+<body>
+  <!-- Header -->
+  <header id="main-header" class="header">
+    <div class="container header-container">
+      <a href="#" class="logo">AeroSound.</a>
+      <nav class="nav-menu">
+        <a href="#hero" class="nav-link">Home</a>
+        <a href="#features" class="nav-link">Product</a>
+        <a href="#story" class="nav-link">Story</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+      <div class="header-actions" style="display: flex; align-items: center; gap: 1rem;">
+        <div class="lang-switcher">
+          <a href="./index.html" class="lang-link">KR</a>
+          <span class="lang-separator">|</span>
+          <a href="#" class="lang-link active">EN</a>
+        </div>
+        <button id="theme-toggle" class="btn-icon" aria-label="Toggle Theme">
+          <svg id="theme-icon-sun" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display: none;"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+          <svg id="theme-icon-moon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+        </button>
+        <button class="btn btn-primary btn-sm btn-buy">Buy Now</button>
+        <button id="mobile-menu-toggle" class="btn-icon mobile-only" aria-label="Toggle Menu">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+      <div class="hero-bg-gradient"></div>
+      <div class="container hero-container">
+        <div class="hero-content reveal">
+          <span class="badge">Next-Gen Wireless Audio</span>
+          <h1 class="hero-title">Perfect Sound for<br><span class="text-gradient">Every Moment</span></h1>
+          <p class="hero-subtitle">Most advanced active noise cancellation and studio-grade sound quality. Immerse yourself completely in music.</p>
+          <div class="hero-buttons">
+            <button class="btn btn-primary btn-lg">Order Now</button>
+            <button class="btn btn-outline btn-lg">View Specs</button>
+          </div>
+        </div>
+        <div class="hero-visual reveal delay-1">
+          <div class="floating">
+            <img src="./assets/product.jpg" alt="AeroSound Pro Headphones" style="width: 100%; border-radius: 24px; box-shadow: 0 30px 60px -15px rgba(79, 70, 229, 0.3); object-fit: cover; aspect-ratio: 4/3; border: 1px solid rgba(255,255,255,0.1);">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+      <div class="container">
+        <div class="section-header reveal">
+          <h2 class="section-title">The Peak of Sound Tech</h2>
+          <p class="section-subtitle">Delivering a listening experience beyond boundaries with cutting-edge technology.</p>
+        </div>
+        <div class="features-grid">
+          <div class="feature-card reveal">
+            <div class="feature-icon">🎧</div>
+            <h3 class="feature-title">Spatial Audio</h3>
+            <p class="feature-desc">Dynamic head tracking technology provides a theater-like 360-degree immersive sound experience.</p>
+          </div>
+          <div class="feature-card reveal delay-1">
+            <div class="feature-icon">🔇</div>
+            <h3 class="feature-title">Active Noise Cancellation</h3>
+            <p class="feature-desc">Analyzes and blocks noise 500 times per second to provide perfect silence in any environment.</p>
+          </div>
+          <div class="feature-card reveal delay-2">
+            <div class="feature-icon">🔋</div>
+            <h3 class="feature-title">40 Hours Playback</h3>
+            <p class="feature-desc">Up to 40 hours of music on a single charge, with 3 hours of use from just 10 minutes of charging.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="#" class="logo">AeroSound.</a>
+          <p>The New Standard of Sound</p>
+        </div>
+        <div class="footer-links">
+          <div class="link-group">
+            <h4>Products</h4>
+            <a href="#">AeroSound Pro</a>
+            <a href="#">AeroBuds</a>
+            <a href="#">Accessories</a>
+          </div>
+          <div class="link-group">
+            <h4>Support</h4>
+            <a href="#">Product Registration</a>
+            <a href="#">User Manual</a>
+            <a href="#">Service Center</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 AeroSound Inc. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="./js/main.js"></script>
+</body>
+</html>
